@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+    color: black;   
+}
+header {
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    max-width: 1420px;
+}
+header .menu{
+    display: flex;
+    gap: 50px;
+}
+
+.menu li a{
+    color: #505f98;
+}
+header button {
+    background: #111b47;
+    color: white;
+    padding: 2px 60px;
+    border-radius: 3px;
+}
+a{
+    color: white;
+}
+.toggle i{
+    font-size: 25px;
+}
+#main_section {
+    display: flex;
+    gap: 20px;
+    /* background-image: url(./Group\ 31.png); */
+    background-repeat: no-repeat;
+    background-size: 700px auto;
+    background-position-x: right;
+    /* background-attachment: fixed; */
+}
+#main_section img {
+    width: 500px;
+    object-fit: cover;
+    margin-top: 100px;
+}
+section{
+    width: 100%;
+    padding: 0 100px;
+    max-width: 1420px;
+}
+section .hero{
+   padding: 100px 0;
+}
+section .hero h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+}
+.hero p {
+    width: 600px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 18px;
+    text-wrap: wrap;
+}
+.hero .buttons {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.buttons .btn1 {
+    background: #111b47;
+    color: white;
+    padding: 5px 60px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.buttons .btn2 {
+    background: white;
+    padding: 5px 60px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.buttons .btn2 a {
+    color: #091133;
+}
+.inner_section{
+    padding: 100px 0;
+}
+.inner_section .cards {
+    display: flex;
+}
+.cards1 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.cards1 p {
+    width: 600px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6f7cb2;
+    margin-top: 10px;
+}
+.small_cards {
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+}
+.one_card {
+    width: 255px;
+}
+.one_card h4 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #091133;
+}
+.one_card p {
+    width: 209px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #5d6970;
+    margin-top: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.inner_section_wrapper {
+    /* padding: 80px 0; */
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.inner_section_wrapper .all_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all_cards1 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.all_cards1 p {
+    width: 455px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6f7cb2;
+    margin-top: 10px;
+}
+.all_cards1 button {
+    background: #111b47;
+    color: white;
+    padding: 5px 60px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.inner_section_wrapper .all_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px 0;
+}
+.content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #091133;
+    text-align: center;
+}
+.content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #6f7cb2;
+    width: 600px;
+}
+.purchase_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.purchase_card h5 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #222f65;
+    text-align: center;
+}
+.purchase_card h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #37447e;
+    text-align: center;
+}
+.purchase_card h6 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #5d6970;
+    text-align: center;
+    margin-top: 50px;
+}
+.purchase_card button {
+    background: #111b47;
+    color: white;
+    padding: 5px 60px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+.purchase_card button a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: aliceblue;
+}
+footer {
+    background-color: #e7ecff;
+    width: 100%;
+    padding: 30px 100px;
+    max-width: 1420px;
+}
+.top_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_footer p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #939ea4;
+}
+.top_footer button {
+    background: #111b47;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+.top_footer button a {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: aliceblue;
+}
+footer .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer hr {
+    color: #cdd1d4;
+    margin-top: 10px;
+}
+footer .menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .menu ul {
+    display: flex;
+    gap: 50px;
+}
+footer .icons {
+    display: flex;
+    gap: 20px;
+}
+ a{
+    color: white;
+}
+footer .icons img {
+    color: #b0b8bc;
+    width: 100%;
+}
